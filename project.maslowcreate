@@ -6,9 +6,22 @@
             "x": 0,
             "y": 0,
             "uniqueID": 442906,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Input391425",
+                    "ioValue": 10
+                }
+            ],
             "topLevel": true,
             "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "Input391425",
+                    "x": 94,
+                    "y": 66,
+                    "uniqueID": 540495,
+                    "ioValues": []
+                },
                 {
                     "atomType": "Circle",
                     "name": "Circle",
@@ -38,8 +51,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 347,
-                    "y": 62,
+                    "x": 346,
+                    "y": 55,
                     "uniqueID": 247937,
                     "ioValues": [
                         {
