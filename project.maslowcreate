@@ -25,13 +25,13 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 395,
-                    "y": 107,
+                    "x": 399,
+                    "y": 97,
                     "uniqueID": 247937,
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 10
+                            "ioValue": 100
                         }
                     ]
                 },
