@@ -162,15 +162,15 @@
                             "ioValue": ""
                         },
                         {
+                            "name": "3D shape 869794",
+                            "ioValue": 10
+                        },
+                        {
                             "name": "3D shape 145572",
                             "ioValue": 10
                         },
                         {
                             "name": "3D shape 463362",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 869794",
                             "ioValue": 10
                         }
                     ],
@@ -179,8 +179,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Sheet Metal Tab Take Two",
-                    "x": 826,
-                    "y": 139,
+                    "x": 822,
+                    "y": 148,
                     "uniqueID": 448566,
                     "projectID": "211329461",
                     "ioValues": [
@@ -194,7 +194,7 @@
                         },
                         {
                             "name": "Interior Radius",
-                            "ioValue": 10
+                            "ioValue": 5
                         },
                         {
                             "name": "Metal Thickness",
@@ -265,15 +265,15 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "Cut Away Geometry",
-                    "ap1ID": 557119,
-                    "ap2ID": 448566
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 145572",
                     "ap1ID": 557119,
                     "ap2ID": 814630
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Cut Away Geometry",
+                    "ap1ID": 557119,
+                    "ap2ID": 448566
                 },
                 {
                     "ap1Name": "geometry",
