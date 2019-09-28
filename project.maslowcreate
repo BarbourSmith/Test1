@@ -82,7 +82,7 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 10
+                            "ioValue": 100
                         },
                         {
                             "name": "y length",
@@ -116,7 +116,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": -10
                         },
                         {
                             "name": "zDist",
@@ -136,24 +136,80 @@
                             "ioValue": ""
                         },
                         {
+                            "name": "3D shape 874659",
+                            "ioValue": 10
+                        },
+                        {
                             "name": "3D shape 365502",
                             "ioValue": 10
                         },
                         {
                             "name": "3D shape 316890",
                             "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 795,
+                    "y": 57,
+                    "uniqueID": 814630,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 869794",
+                            "ioValue": ""
                         },
                         {
-                            "name": "3D shape 874659",
+                            "name": "3D shape 145572",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 463362",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 869794",
                             "ioValue": 10
                         }
                     ],
                     "removeCutawayGeometry": true
                 },
                 {
+                    "atomType": "GitHubMolecule",
+                    "name": "Sheet Metal Tab Take Two",
+                    "x": 826,
+                    "y": 139,
+                    "uniqueID": 448566,
+                    "projectID": "211329461",
+                    "ioValues": [
+                        {
+                            "name": "Tab Length",
+                            "ioValue": 40
+                        },
+                        {
+                            "name": "Tab Height",
+                            "ioValue": 60
+                        },
+                        {
+                            "name": "Interior Radius",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Metal Thickness",
+                            "ioValue": 3
+                        },
+                        {
+                            "name": "Bent",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 944,
+                    "x": 954,
                     "y": 164,
                     "ioValues": []
                 }
@@ -209,8 +265,26 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "Cut Away Geometry",
+                    "ap1ID": 557119,
+                    "ap2ID": 448566
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 145572",
+                    "ap1ID": 557119,
+                    "ap2ID": 814630
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap1ID": 213024
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 463362",
+                    "ap1ID": 448566,
+                    "ap2ID": 814630
                 }
             ],
             "fileTypeVersion": 1
