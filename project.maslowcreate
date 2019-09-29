@@ -40,6 +40,23 @@
                     ]
                 },
                 {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 334,
+                    "y": 40,
+                    "uniqueID": 459688,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 100
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Extrude",
                     "name": "Extrude",
                     "x": 365,
@@ -74,27 +91,10 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Rectangle",
-                    "name": "Rectangle",
-                    "x": 491,
-                    "y": 74,
-                    "uniqueID": 459688,
-                    "ioValues": [
-                        {
-                            "name": "x length",
-                            "ioValue": 100
-                        },
-                        {
-                            "name": "y length",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 569,
-                    "y": 121,
+                    "x": 481,
+                    "y": 83,
                     "uniqueID": 182122,
                     "ioValues": [
                         {
@@ -106,8 +106,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 667,
-                    "y": 140,
+                    "x": 559,
+                    "y": 135,
                     "uniqueID": 557119,
                     "ioValues": [
                         {
@@ -121,6 +121,36 @@
                         {
                             "name": "zDist",
                             "ioValue": 55
+                        }
+                    ]
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Sheet Metal Tab Take Two",
+                    "x": 714,
+                    "y": 142,
+                    "uniqueID": 448566,
+                    "projectID": "211329461",
+                    "ioValues": [
+                        {
+                            "name": "Tab Length",
+                            "ioValue": 40
+                        },
+                        {
+                            "name": "Tab Height",
+                            "ioValue": 60
+                        },
+                        {
+                            "name": "Interior Radius",
+                            "ioValue": 5
+                        },
+                        {
+                            "name": "Metal Thickness",
+                            "ioValue": 3
+                        },
+                        {
+                            "name": "Bent",
+                            "ioValue": 1
                         }
                     ]
                 },
@@ -153,8 +183,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 795,
-                    "y": 57,
+                    "x": 826,
+                    "y": 84,
                     "uniqueID": 814630,
                     "ioValues": [
                         {
@@ -162,58 +192,24 @@
                             "ioValue": ""
                         },
                         {
-                            "name": "3D shape 463362",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "3D shape 869794",
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 145572",
+                            "name": "3D shape 463362",
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 463362",
+                            "name": "3D shape 145572",
                             "ioValue": 10
                         }
                     ],
                     "removeCutawayGeometry": true
                 },
                 {
-                    "atomType": "GitHubMolecule",
-                    "name": "Sheet Metal Tab Take Two",
-                    "x": 822,
-                    "y": 148,
-                    "uniqueID": 448566,
-                    "projectID": "211329461",
-                    "ioValues": [
-                        {
-                            "name": "Tab Length",
-                            "ioValue": 40
-                        },
-                        {
-                            "name": "Tab Height",
-                            "ioValue": 60
-                        },
-                        {
-                            "name": "Interior Radius",
-                            "ioValue": 5
-                        },
-                        {
-                            "name": "Metal Thickness",
-                            "ioValue": 3
-                        },
-                        {
-                            "name": "Bent",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 954,
+                    "x": 843,
                     "y": 164,
                     "ioValues": []
                 }
@@ -233,6 +229,12 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 459688,
+                    "ap2ID": 182122
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "geometry1",
                     "ap1ID": 247937,
                     "ap2ID": 219950
@@ -248,12 +250,6 @@
                     "ap2Name": "3D shape 365502",
                     "ap1ID": 219950,
                     "ap2ID": 213024
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 459688,
-                    "ap2ID": 182122
                 },
                 {
                     "ap1Name": "geometry",
@@ -280,15 +276,15 @@
                     "ap2ID": 448566
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap1ID": 213024
-                },
-                {
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 463362",
                     "ap1ID": 448566,
                     "ap2ID": 814630
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 213024
                 }
             ],
             "fileTypeVersion": 1
