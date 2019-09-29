@@ -146,36 +146,6 @@
                     ]
                 },
                 {
-                    "atomType": "GitHubMolecule",
-                    "name": "Sheet Metal Tab Take Two",
-                    "x": 714,
-                    "y": 142,
-                    "uniqueID": 448566,
-                    "projectID": "211329461",
-                    "ioValues": [
-                        {
-                            "name": "Tab Length",
-                            "ioValue": 40
-                        },
-                        {
-                            "name": "Tab Height",
-                            "ioValue": 60
-                        },
-                        {
-                            "name": "Interior Radius",
-                            "ioValue": 5
-                        },
-                        {
-                            "name": "Metal Thickness",
-                            "ioValue": 3
-                        },
-                        {
-                            "name": "Bent",
-                            "ioValue": 1
-                        }
-                    ]
-                },
-                {
                     "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 708,
@@ -200,6 +170,40 @@
                         }
                     ],
                     "removeCutawayGeometry": true
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Sheet Metal Tab Take Two",
+                    "x": 762,
+                    "y": 175,
+                    "uniqueID": 448566,
+                    "projectID": "211329461",
+                    "ioValues": [
+                        {
+                            "name": "Tab Length",
+                            "ioValue": 40
+                        },
+                        {
+                            "name": "Tab Height",
+                            "ioValue": 60
+                        },
+                        {
+                            "name": "Interior Radius",
+                            "ioValue": 5
+                        },
+                        {
+                            "name": "Metal Thickness",
+                            "ioValue": 3
+                        },
+                        {
+                            "name": "Bent",
+                            "ioValue": 1
+                        },
+                        {
+                            "name": "Cut Away Geometry",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Assembly",
@@ -298,20 +302,14 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "Cut Away Geometry",
-                    "ap1ID": 557119,
-                    "ap2ID": 448566
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 213024
                 },
                 {
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 463362",
                     "ap1ID": 448566,
                     "ap2ID": 814630
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap1ID": 213024
                 }
             ],
             "fileTypeVersion": 1
