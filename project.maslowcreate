@@ -18,7 +18,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 300
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -78,32 +78,6 @@
                     ]
                 },
                 {
-                    "atomType": "ShrinkWrap",
-                    "name": "Shrink Wrap",
-                    "x": 289,
-                    "y": 202,
-                    "uniqueID": 687965,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 386834",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 123672",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 995616",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 386834",
-                            "ioValue": 10
-                        }
-                    ],
-                    "closedSelection": 0
-                },
-                {
                     "atomType": "Extrude",
                     "name": "Extrude",
                     "x": 365,
@@ -147,27 +121,6 @@
                         {
                             "name": "height",
                             "ioValue": 10
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 444,
-                    "y": 269,
-                    "uniqueID": 704918,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
                         }
                     ]
                 },
@@ -297,33 +250,15 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 995616",
-                    "ap1ID": 182228,
-                    "ap2ID": 687965
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 844343,
                     "ap2ID": 242188
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 123672",
-                    "ap1ID": 844343,
-                    "ap2ID": 687965
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 459688,
                     "ap2ID": 182122
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 687965,
-                    "ap2ID": 704918
                 },
                 {
                     "ap1Name": "geometry",
