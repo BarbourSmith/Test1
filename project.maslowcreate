@@ -12,8 +12,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 118,
-                    "y": 177,
+                    "x": 127,
+                    "y": 104,
                     "uniqueID": 677118,
                     "ioValues": [
                         {
@@ -23,10 +23,31 @@
                     ]
                 },
                 {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 244,
+                    "y": 150,
+                    "uniqueID": 182228,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 20
+                        }
+                    ]
+                },
+                {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 226,
-                    "y": 221,
+                    "x": 172,
+                    "y": 256,
                     "uniqueID": 844343,
                     "ioValues": [
                         {
@@ -55,6 +76,32 @@
                             "ioValue": 10
                         }
                     ]
+                },
+                {
+                    "atomType": "ShrinkWrap",
+                    "name": "Shrink Wrap",
+                    "x": 304,
+                    "y": 204,
+                    "uniqueID": 739444,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 416451",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "3D shape 832247",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 614487",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 416451",
+                            "ioValue": 10
+                        }
+                    ],
+                    "closedSelection": 0
                 },
                 {
                     "atomType": "Extrude",
@@ -209,7 +256,7 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 843,
+                    "x": 1075,
                     "y": 164,
                     "ioValues": []
                 }
@@ -224,8 +271,26 @@
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap1ID": 677118,
+                    "ap2ID": 182228
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 614487",
+                    "ap1ID": 182228,
+                    "ap2ID": 739444
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
                     "ap1ID": 844343,
                     "ap2ID": 242188
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 832247",
+                    "ap1ID": 844343,
+                    "ap2ID": 739444
                 },
                 {
                     "ap1Name": "geometry",
