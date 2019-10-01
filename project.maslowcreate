@@ -211,6 +211,10 @@
                         {
                             "name": "Bent",
                             "ioValue": 1
+                        },
+                        {
+                            "name": "Cut Away Geometry",
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -314,12 +318,6 @@
                     "ap2Name": "3D shape 145572",
                     "ap1ID": 557119,
                     "ap2ID": 814630
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Cut Away Geometry",
-                    "ap1ID": 557119,
-                    "ap2ID": 448566
                 },
                 {
                     "ap1Name": "geometry",
