@@ -166,19 +166,7 @@
                     "uniqueID": 213024,
                     "ioValues": [
                         {
-                            "name": "3D shape 874659",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 874659",
-                            "ioValue": 10
-                        },
-                        {
                             "name": "3D shape 365502",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 316890",
                             "ioValue": 10
                         }
                     ],
@@ -211,10 +199,6 @@
                         {
                             "name": "Bent",
                             "ioValue": 1
-                        },
-                        {
-                            "name": "Cut Away Geometry",
-                            "ioValue": 10
                         }
                     ]
                 },
@@ -226,7 +210,7 @@
                     "uniqueID": 814630,
                     "ioValues": [
                         {
-                            "name": "3D shape 818114",
+                            "name": "3D shape 361962",
                             "ioValue": ""
                         },
                         {
@@ -234,11 +218,11 @@
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 787245",
+                            "name": "3D shape 423080",
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 818114",
+                            "name": "3D shape 361962",
                             "ioValue": 10
                         }
                     ],
@@ -306,6 +290,18 @@
                     "ap2Name": "geometry",
                     "ap1ID": 182122,
                     "ap2ID": 557119
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 423080",
+                    "ap1ID": 557119,
+                    "ap2ID": 814630
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Cut Away Geometry",
+                    "ap1ID": 557119,
+                    "ap2ID": 448566
                 },
                 {
                     "ap1Name": "geometry",
