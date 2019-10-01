@@ -31,7 +31,7 @@
                     "ioValues": [
                         {
                             "name": "number",
-                            "ioValue": 10
+                            "ioValue": 3
                         }
                     ]
                 },
@@ -65,7 +65,7 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 10
+                            "ioValue": 3
                         },
                         {
                             "name": "y length",
@@ -106,8 +106,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 332,
-                    "y": 268,
+                    "x": 321,
+                    "y": 273,
                     "uniqueID": 242188,
                     "ioValues": [
                         {
@@ -188,7 +188,7 @@
                     "atomType": "GitHubMolecule",
                     "name": "Sheet Metal Tab Take Two",
                     "x": 762,
-                    "y": 175,
+                    "y": 177,
                     "uniqueID": 448566,
                     "projectID": "211329461",
                     "ioValues": [
