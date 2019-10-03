@@ -265,10 +265,6 @@
                             "ioValue": ""
                         },
                         {
-                            "name": "3D shape 463362",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "3D shape 361962",
                             "ioValue": 10
                         },
@@ -284,35 +280,9 @@
                     "removeCutawayGeometry": true
                 },
                 {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 897,
-                    "y": 276,
-                    "uniqueID": 627153,
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 1099,
-                    "y": 246,
-                    "uniqueID": 522947,
-                    "ioValues": [
-                        {
-                            "name": "height",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1316,
+                    "x": 1001,
                     "y": 164,
                     "ioValues": []
                 }
@@ -412,12 +382,6 @@
                     "ap2Name": "3D shape 463362",
                     "ap1ID": 448566,
                     "ap2ID": 814630
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 627153,
-                    "ap2ID": 522947
                 }
             ],
             "fileTypeVersion": 1
