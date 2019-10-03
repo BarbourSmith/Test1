@@ -155,10 +155,19 @@
                     ]
                 },
                 {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 554,
+                    "y": 194,
+                    "uniqueID": 235541,
+                    "ioValues": [],
+                    "selectedColorIndex": "3"
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 559,
-                    "y": 135,
+                    "x": 616,
+                    "y": 95,
                     "uniqueID": 557119,
                     "ioValues": [
                         {
@@ -176,15 +185,6 @@
                     ]
                 },
                 {
-                    "atomType": "Color",
-                    "name": "Color",
-                    "x": 561,
-                    "y": 194,
-                    "uniqueID": 235541,
-                    "ioValues": [],
-                    "selectedColorIndex": "12"
-                },
-                {
                     "atomType": "Extrude",
                     "name": "Extrude",
                     "x": 568,
@@ -200,8 +200,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 667,
-                    "y": 220,
+                    "x": 705,
+                    "y": 243,
                     "uniqueID": 213024,
                     "ioValues": [
                         {
@@ -226,8 +226,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Sheet Metal Tab Take Two",
-                    "x": 762,
-                    "y": 177,
+                    "x": 750,
+                    "y": 161,
                     "uniqueID": 448566,
                     "projectID": "211329461",
                     "ioValues": [
@@ -256,12 +256,16 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 826,
-                    "y": 84,
+                    "x": 835,
+                    "y": 50,
                     "uniqueID": 814630,
                     "ioValues": [
                         {
                             "name": "3D shape 361962",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "3D shape 463362",
                             "ioValue": ""
                         },
                         {
@@ -280,9 +284,35 @@
                     "removeCutawayGeometry": true
                 },
                 {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 897,
+                    "y": 276,
+                    "uniqueID": 627153,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 1099,
+                    "y": 246,
+                    "uniqueID": 522947,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1001,
+                    "x": 1316,
                     "y": 164,
                     "ioValues": []
                 }
@@ -350,6 +380,12 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "3D shape 191627",
+                    "ap1ID": 235541,
+                    "ap2ID": 213024
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 423080",
                     "ap1ID": 557119,
                     "ap2ID": 814630
@@ -359,12 +395,6 @@
                     "ap2Name": "Cut Away Geometry",
                     "ap1ID": 557119,
                     "ap2ID": 448566
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 191627",
-                    "ap1ID": 235541,
-                    "ap2ID": 213024
                 },
                 {
                     "ap1Name": "geometry",
@@ -382,6 +412,12 @@
                     "ap2Name": "3D shape 463362",
                     "ap1ID": 448566,
                     "ap2ID": 814630
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 627153,
+                    "ap2ID": 522947
                 }
             ],
             "fileTypeVersion": 1
