@@ -291,24 +291,31 @@
                             "ioValue": ""
                         },
                         {
+                            "name": "3D shape 906549",
+                            "ioValue": 10
+                        },
+                        {
                             "name": "3D shape 352069",
                             "ioValue": 10
                         },
                         {
                             "name": "3D shape 545829",
                             "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 906549",
-                            "ioValue": 10
                         }
                     ],
                     "removeCutawayGeometry": true
                 },
                 {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1001,
+                    "y": 164,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 1070,
+                    "x": 1035,
                     "y": 262,
                     "uniqueID": 321206,
                     "ioValues": [
@@ -318,13 +325,6 @@
                         }
                     ],
                     "currentEquation": "2*A"
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 164,
-                    "ioValues": []
                 }
             ],
             "allConnectors": [
