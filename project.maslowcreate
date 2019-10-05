@@ -198,36 +198,10 @@
                     ]
                 },
                 {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 705,
-                    "y": 243,
-                    "uniqueID": 213024,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 341032",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 341032",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 191627",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 365502",
-                            "ioValue": 10
-                        }
-                    ],
-                    "removeCutawayGeometry": true
-                },
-                {
                     "atomType": "GitHubMolecule",
                     "name": "Sheet Metal Tab Take Two",
-                    "x": 750,
-                    "y": 161,
+                    "x": 708,
+                    "y": 172,
                     "uniqueID": 448566,
                     "projectID": "211329461",
                     "ioValues": [
@@ -256,6 +230,32 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
+                    "x": 705,
+                    "y": 243,
+                    "uniqueID": 213024,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 341032",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "3D shape 341032",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 191627",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 365502",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
                     "x": 835,
                     "y": 50,
                     "uniqueID": 814630,
@@ -280,16 +280,38 @@
                     "removeCutawayGeometry": true
                 },
                 {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 892,
+                    "y": 260,
+                    "uniqueID": 149298,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 906549",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "3D shape 352069",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 545829",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 906549",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
+                },
+                {
                     "atomType": "Equation",
                     "name": "Equation",
                     "x": 1070,
                     "y": 262,
                     "uniqueID": 321206,
                     "ioValues": [
-                        {
-                            "name": "y",
-                            "ioValue": 1
-                        },
                         {
                             "name": "A",
                             "ioValue": 1
@@ -391,15 +413,27 @@
                     "ap2ID": 213024
                 },
                 {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 463362",
+                    "ap1ID": 448566,
+                    "ap2ID": 814630
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 545829",
+                    "ap1ID": 448566,
+                    "ap2ID": 149298
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap1ID": 213024
                 },
                 {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 463362",
-                    "ap1ID": 448566,
-                    "ap2ID": 814630
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 352069",
+                    "ap1ID": 213024,
+                    "ap2ID": 149298
                 }
             ],
             "fileTypeVersion": 1
