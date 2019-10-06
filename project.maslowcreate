@@ -280,6 +280,13 @@
                     "removeCutawayGeometry": true
                 },
                 {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 909,
+                    "y": 164,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 892,
@@ -306,16 +313,9 @@
                     "removeCutawayGeometry": true
                 },
                 {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1001,
-                    "y": 164,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 1035,
+                    "x": 943,
                     "y": 262,
                     "uniqueID": 321206,
                     "ioValues": [
