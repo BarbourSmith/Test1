@@ -235,7 +235,7 @@
                     "uniqueID": 213024,
                     "ioValues": [
                         {
-                            "name": "3D shape 225637",
+                            "name": "3D shape 679831",
                             "ioValue": ""
                         },
                         {
@@ -265,10 +265,6 @@
                             "ioValue": ""
                         },
                         {
-                            "name": "3D shape 361962",
-                            "ioValue": 10
-                        },
-                        {
                             "name": "3D shape 463362",
                             "ioValue": 10
                         },
@@ -287,7 +283,7 @@
                     "uniqueID": 750336,
                     "ioValues": [
                         {
-                            "name": "3D shape 606735",
+                            "name": "3D shape 304473",
                             "ioValue": ""
                         },
                         {
@@ -411,6 +407,18 @@
                     "ap2Name": "3D shape 716503",
                     "ap1ID": 557119,
                     "ap2ID": 213024
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 225637",
+                    "ap1ID": 190513,
+                    "ap2ID": 213024
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 606735",
+                    "ap1ID": 190513,
+                    "ap2ID": 750336
                 },
                 {
                     "ap1Name": "Geometry",
