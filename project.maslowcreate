@@ -216,6 +216,28 @@
                     "removeCutawayGeometry": true
                 },
                 {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 738,
+                    "y": 152,
+                    "uniqueID": 505705,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 677170",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 744793",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 449180",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 909,
@@ -292,9 +314,27 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "3D shape 744793",
+                    "ap1ID": 235541,
+                    "ap2ID": 505705
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 449180",
+                    "ap1ID": 557119,
+                    "ap2ID": 505705
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 679831",
                     "ap1ID": 190513,
                     "ap2ID": 213024
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 677170",
+                    "ap1ID": 190513,
+                    "ap2ID": 505705
                 },
                 {
                     "ap1Name": "geometry",
