@@ -237,21 +237,8 @@
                         {
                             "name": "3D shape 679831",
                             "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 225637",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 698153",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 716503",
-                            "ioValue": 10
                         }
-                    ],
-                    "removeCutawayGeometry": true
+                    ]
                 },
                 {
                     "atomType": "Assembly",
@@ -263,39 +250,21 @@
                         {
                             "name": "3D shape 361962",
                             "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 463362",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 423080",
-                            "ioValue": 10
                         }
-                    ],
-                    "removeCutawayGeometry": true
+                    ]
                 },
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 832,
-                    "y": 266,
-                    "uniqueID": 875851,
+                    "x": 826,
+                    "y": 279,
+                    "uniqueID": 851894,
                     "ioValues": [
                         {
-                            "name": "3D shape 559147",
+                            "name": "3D shape 224304",
                             "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 407415",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 928254",
-                            "ioValue": 10
                         }
-                    ],
-                    "removeCutawayGeometry": true
+                    ]
                 },
                 {
                     "atomType": "Output",
@@ -417,21 +386,21 @@
                     "ap2ID": 814630
                 },
                 {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 928254",
-                    "ap1ID": 448566,
-                    "ap2ID": 875851
-                },
-                {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap1ID": 213024
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 407415",
+                    "ap2Name": "3D shape 160434",
                     "ap1ID": 213024,
-                    "ap2ID": 875851
+                    "ap2ID": 851894
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 712696",
+                    "ap1ID": 213024,
+                    "ap2ID": 851894
                 }
             ],
             "fileTypeVersion": 1
