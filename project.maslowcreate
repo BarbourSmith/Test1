@@ -238,6 +238,23 @@
                     "removeCutawayGeometry": true
                 },
                 {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 962.7364152473642,
+                    "y": 103.03163017031632,
+                    "uniqueID": 289332,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
