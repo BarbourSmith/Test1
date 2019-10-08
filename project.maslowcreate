@@ -6,7 +6,16 @@
             "x": 0,
             "y": 0,
             "uniqueID": 442906,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Input923826",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Does this save and load?",
+                    "ioValue": 10
+                }
+            ],
             "topLevel": true,
             "allAtoms": [
                 {
@@ -87,6 +96,19 @@
                         {
                             "name": "y length",
                             "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Does this save and load?",
+                    "x": 284,
+                    "y": 202,
+                    "uniqueID": 347274,
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 42
                         }
                     ]
                 },
@@ -251,7 +273,12 @@
                     "x": 844,
                     "y": 105,
                     "uniqueID": 421756,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Extrude",
