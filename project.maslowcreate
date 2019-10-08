@@ -108,7 +108,7 @@
                     "ioValues": [
                         {
                             "name": "default value",
-                            "ioValue": 10
+                            "ioValue": 42
                         }
                     ]
                 },
