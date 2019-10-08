@@ -114,39 +114,9 @@
                     "selectedColorIndex": "3"
                 },
                 {
-                    "atomType": "GitHubMolecule",
-                    "name": "Metal Bend",
-                    "x": 683,
-                    "y": 109,
-                    "uniqueID": 547644,
-                    "projectID": "213500755",
-                    "ioValues": [
-                        {
-                            "name": "Length",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "Thickness",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "Interior Radius",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "Attached Geometry",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "Bent?",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1059,
+                    "x": 936,
                     "y": 164,
                     "ioValues": []
                 }
