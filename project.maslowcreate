@@ -198,22 +198,12 @@
                     ]
                 },
                 {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 714,
-                    "y": 237,
-                    "uniqueID": 213024,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 679831",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 793468",
-                            "ioValue": 10
-                        }
-                    ],
-                    "removeCutawayGeometry": true
+                    "atomType": "Input",
+                    "name": "Input923826",
+                    "x": 734,
+                    "y": 44,
+                    "uniqueID": 501130,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Assembly",
@@ -238,6 +228,32 @@
                     "removeCutawayGeometry": true
                 },
                 {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 730,
+                    "y": 252,
+                    "uniqueID": 213024,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 679831",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 793468",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 844,
+                    "y": 105,
+                    "uniqueID": 421756,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Extrude",
                     "name": "Extrude",
                     "x": 923,
@@ -257,7 +273,7 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1316,
+                    "x": 1059,
                     "y": 164,
                     "ioValues": []
                 }
@@ -343,6 +359,12 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "default value",
+                    "ap1ID": 557119,
+                    "ap2ID": 501130
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 679831",
                     "ap1ID": 190513,
                     "ap2ID": 213024
@@ -352,6 +374,12 @@
                     "ap2Name": "3D shape 677170",
                     "ap1ID": 190513,
                     "ap2ID": 505705
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "diameter",
+                    "ap1ID": 501130,
+                    "ap2ID": 421756
                 },
                 {
                     "ap1Name": "geometry",
