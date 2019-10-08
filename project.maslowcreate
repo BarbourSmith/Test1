@@ -105,6 +105,19 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 519,
+                    "y": 102,
+                    "uniqueID": 853802,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Color",
                     "name": "Color",
                     "x": 554,
@@ -112,6 +125,36 @@
                     "uniqueID": 235541,
                     "ioValues": [],
                     "selectedColorIndex": "3"
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Metal Bend",
+                    "x": 657,
+                    "y": 115,
+                    "uniqueID": 265904,
+                    "projectID": "213500755",
+                    "ioValues": [
+                        {
+                            "name": "Length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Thickness",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Interior Radius",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Attached Geometry",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Bent?",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Output",
