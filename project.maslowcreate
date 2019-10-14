@@ -136,31 +136,36 @@
                     "ioValues": [
                         {
                             "name": "Length",
-                            "ioValue": 10
+                            "ioValue": 30
                         },
                         {
                             "name": "Thickness",
-                            "ioValue": 10
+                            "ioValue": 3
                         },
                         {
                             "name": "Interior Radius",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "Attached Geometry",
-                            "ioValue": 10
+                            "ioValue": 7
                         },
                         {
                             "name": "Bent?",
-                            "ioValue": 10
+                            "ioValue": 1
                         }
                     ]
                 },
                 {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 732,
+                    "y": 240,
+                    "uniqueID": 123121,
+                    "ioValues": [],
+                    "selectedColorIndex": 0
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 936,
-                    "y": 164,
+                    "x": 1316,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -205,6 +210,12 @@
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap1ID": 235541
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 235541,
+                    "ap2ID": 123121
                 }
             ],
             "fileTypeVersion": 1
