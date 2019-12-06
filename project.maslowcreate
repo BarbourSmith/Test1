@@ -2,82 +2,42 @@
     "molecules": [
         {
             "atomType": "Molecule",
-            "name": "Molecule",
-            "x": 409,
-            "y": 189,
-            "uniqueID": 188414,
-            "ioValues": [],
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 163.5,
-                    "ioValues": []
-                }
-            ],
-            "allConnectors": [],
-            "fileTypeVersion": 1
-        },
-        {
-            "atomType": "Molecule",
             "name": "Test1",
             "x": 0,
             "y": 0,
             "uniqueID": 442906,
             "ioValues": [
                 {
-                    "name": "X",
+                    "name": "Input502554",
                     "ioValue": 100
-                },
-                {
-                    "name": "Y",
-                    "ioValue": 10
                 }
             ],
             "topLevel": true,
             "allAtoms": [
                 {
                     "atomType": "Input",
-                    "name": "X",
+                    "name": "Input502554",
                     "x": 15,
-                    "y": 56,
-                    "uniqueID": 283166,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Y",
-                    "x": 15,
-                    "y": 175,
-                    "uniqueID": 600092,
+                    "y": 150,
+                    "uniqueID": 334188,
                     "ioValues": []
                 },
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 234,
-                    "y": 94,
-                    "uniqueID": 251795,
+                    "x": 309,
+                    "y": 100,
+                    "uniqueID": 700928,
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 10
+                            "ioValue": 100
                         },
                         {
                             "name": "y length",
                             "ioValue": 10
                         }
                     ]
-                },
-                {
-                    "atomType": "Molecule",
-                    "name": "Molecule",
-                    "x": 409,
-                    "y": 189,
-                    "uniqueID": 188414,
-                    "ioValues": []
                 },
                 {
                     "atomType": "Output",
@@ -92,15 +52,8 @@
                     "ap1Name": "number or geometry",
                     "ap2Name": "x length",
                     "ap2Primary": false,
-                    "ap1ID": 283166,
-                    "ap2ID": 251795
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "y length",
-                    "ap2Primary": false,
-                    "ap1ID": 600092,
-                    "ap2ID": 251795
+                    "ap1ID": 334188,
+                    "ap2ID": 700928
                 }
             ],
             "fileTypeVersion": 1
