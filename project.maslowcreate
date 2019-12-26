@@ -25,8 +25,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 309,
-                    "y": 100,
+                    "x": 134,
+                    "y": 77,
                     "uniqueID": 700928,
                     "ioValues": [
                         {
@@ -42,8 +42,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 468,
-                    "y": 52,
+                    "x": 324,
+                    "y": 58,
                     "uniqueID": 749799,
                     "ioValues": [
                         {
@@ -55,8 +55,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 571,
-                    "y": 210,
+                    "x": 366,
+                    "y": 208,
                     "uniqueID": 944261,
                     "ioValues": [
                         {
@@ -76,16 +76,16 @@
                 {
                     "atomType": "CutList",
                     "name": "Add To Cutlist",
-                    "x": 642,
-                    "y": 56,
+                    "x": 494,
+                    "y": 50,
                     "uniqueID": 873299,
                     "ioValues": []
                 },
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 738,
-                    "y": 241,
+                    "x": 504,
+                    "y": 212,
                     "uniqueID": 652984,
                     "ioValues": [
                         {
@@ -103,30 +103,51 @@
                     ]
                 },
                 {
+                    "atomType": "CutList",
+                    "name": "Add To Cutlist",
+                    "x": 635,
+                    "y": 227,
+                    "uniqueID": 289939,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 919,
-                    "y": 110,
+                    "x": 740,
+                    "y": 87,
                     "uniqueID": 540855,
                     "ioValues": [
                         {
-                            "name": "3D shape 1",
+                            "name": "3D shape 2",
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 2",
+                            "name": "3D shape 3",
                             "ioValue": 10
                         }
                     ],
                     "removeCutawayGeometry": true
                 },
                 {
-                    "atomType": "CutList",
-                    "name": "Add To Cutlist",
-                    "x": 895,
-                    "y": 237,
-                    "uniqueID": 289939,
-                    "ioValues": []
+                    "atomType": "CutLayout",
+                    "name": "Cut Layout",
+                    "x": 974,
+                    "y": 122,
+                    "uniqueID": 906618,
+                    "ioValues": [
+                        {
+                            "name": "Spacing",
+                            "ioValue": 5
+                        },
+                        {
+                            "name": "Sheet Width",
+                            "ioValue": 50
+                        },
+                        {
+                            "name": "Sheet Length",
+                            "ioValue": 50
+                        }
+                    ]
                 },
                 {
                     "atomType": "Output",
@@ -181,10 +202,23 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 1",
+                    "ap2Name": "3D shape 3",
                     "ap2Primary": false,
                     "ap1ID": 289939,
                     "ap2ID": 540855
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 540855,
+                    "ap2ID": 906618
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 906618
                 }
             ],
             "fileTypeVersion": 1
