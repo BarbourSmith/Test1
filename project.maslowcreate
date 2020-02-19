@@ -129,27 +129,6 @@
                     "removeCutawayGeometry": true
                 },
                 {
-                    "atomType": "CutLayout",
-                    "name": "Cut Layout",
-                    "x": 974,
-                    "y": 122,
-                    "uniqueID": 906618,
-                    "ioValues": [
-                        {
-                            "name": "Spacing",
-                            "ioValue": 5
-                        },
-                        {
-                            "name": "Sheet Width",
-                            "ioValue": 50
-                        },
-                        {
-                            "name": "Sheet Length",
-                            "ioValue": 50
-                        }
-                    ]
-                },
-                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
@@ -209,16 +188,9 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 540855,
-                    "ap2ID": 906618
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
-                    "ap1ID": 906618
+                    "ap1ID": 540855
                 }
             ],
             "fileTypeVersion": 1
