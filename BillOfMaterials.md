@@ -2,6 +2,8 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Total: |0|$0.00| |
+|DC Gear Motor|3|$0.00|https://uamper.com|
+|Encoder PCB|3|$14.00|www.example.com|
+|Total: |6|$14.00| |
 
- 3xCOG MSRP: $0.00
+ 3xCOG MSRP: $42.00
