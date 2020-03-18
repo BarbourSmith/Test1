@@ -2,112 +2,61 @@
     "molecules": [
         {
             "atomType": "Molecule",
-            "name": "Test1",
-            "x": 0,
-            "y": 0,
-            "uniqueID": 442906,
-            "ioValues": [
-                {
-                    "name": "Input502554",
-                    "ioValue": 100
-                }
-            ],
-            "topLevel": true,
+            "name": "Molecule",
+            "x": 0.20424597364568084,
+            "y": 0.6283524904214559,
+            "uniqueID": 579674,
+            "ioValues": [],
+            "topLevel": false,
             "allAtoms": [
                 {
-                    "atomType": "Input",
-                    "name": "Input502554",
-                    "x": 0.014641288433382138,
-                    "y": 0.4559386973180076,
-                    "uniqueID": 334188,
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.22913616398243045,
+                    "y": 0.32567049808429116,
+                    "uniqueID": 413387,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
+            "name": "One Motor",
+            "x": 0.20790629575402636,
+            "y": 0.24521072796934865,
+            "uniqueID": 192763,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "12V DC Motor",
+                    "x": 0.18667642752562227,
+                    "y": 0.22605363984674332,
+                    "uniqueID": 627437,
+                    "projectID": "197010572",
                     "ioValues": []
                 },
                 {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 0.4136163982430454,
-                    "y": 0.3333333333333333,
-                    "uniqueID": 749799,
-                    "ioValues": [
-                        {
-                            "name": "height",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Rectangle",
-                    "name": "Rectangle",
-                    "x": 0.1691068814055637,
-                    "y": 0.6206896551724138,
-                    "uniqueID": 700928,
-                    "ioValues": [
-                        {
-                            "name": "x length",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "y length",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Rotate",
-                    "name": "Rotate",
-                    "x": 0.630307467057101,
-                    "y": 0.3639846743295019,
-                    "uniqueID": 944261,
-                    "ioValues": [
-                        {
-                            "name": "x-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "y-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "z-axis degrees",
-                            "ioValue": 45
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 0.760614934114202,
-                    "y": 0.24904214559386972,
-                    "uniqueID": 652984,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
-                    "atomType": "CutList",
-                    "name": "Add To Cutlist",
-                    "x": 0.8367496339677891,
-                    "y": 0.4137931034482759,
-                    "uniqueID": 289939,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "CutList",
-                    "name": "Add To Cutlist",
-                    "x": 0.6449487554904832,
-                    "y": 0.7126436781609194,
-                    "uniqueID": 873299,
+                    "atomType": "Molecule",
+                    "name": "Molecule",
+                    "x": 0.20424597364568084,
+                    "y": 0.6283524904214559,
+                    "uniqueID": 579674,
                     "ioValues": []
                 },
                 {
@@ -116,83 +65,65 @@
                     "x": 0.9853587115666179,
                     "y": 0.5,
                     "ioValues": []
-                },
-                {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 0.8806734992679356,
-                    "y": 0.7854406130268199,
-                    "uniqueID": 540855,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 2",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 3",
-                            "ioValue": 10
-                        }
-                    ],
-                    "removeCutawayGeometry": true
                 }
             ],
-            "allConnectors": [
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
+            "name": "String Bits",
+            "x": 0.20424597364568084,
+            "y": 0.6704980842911877,
+            "uniqueID": 244365,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 749799,
-                    "ap2ID": 944261
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 749799,
-                    "ap2ID": 873299
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 700928,
-                    "ap2ID": 749799
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 944261,
-                    "ap2ID": 652984
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 652984,
-                    "ap2ID": 289939
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 3",
-                    "ap2Primary": false,
-                    "ap1ID": 289939,
-                    "ap2ID": 540855
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 2",
-                    "ap2Primary": false,
-                    "ap1ID": 873299,
-                    "ap2ID": 540855
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 540855
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
+                    "ioValues": []
                 }
             ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Test1",
+            "x": 0,
+            "y": 0,
+            "uniqueID": 442906,
+            "ioValues": [],
+            "topLevel": true,
+            "allAtoms": [
+                {
+                    "atomType": "Molecule",
+                    "name": "One Motor",
+                    "x": 0.20790629575402636,
+                    "y": 0.24521072796934865,
+                    "uniqueID": 192763,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "String Bits",
+                    "x": 0.20424597364568084,
+                    "y": 0.6704980842911877,
+                    "uniqueID": 244365,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
             "fileTypeVersion": 1
         }
     ],
