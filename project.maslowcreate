@@ -17,16 +17,29 @@
                 {
                     "atomType": "Input",
                     "name": "Input502554",
-                    "x": 30,
-                    "y": 150,
+                    "x": 0.014641288433382138,
+                    "y": 0.4559386973180076,
                     "uniqueID": 334188,
                     "ioValues": []
                 },
                 {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.4136163982430454,
+                    "y": 0.3333333333333333,
+                    "uniqueID": 749799,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 134,
-                    "y": 77,
+                    "x": 0.1691068814055637,
+                    "y": 0.6206896551724138,
                     "uniqueID": 700928,
                     "ioValues": [
                         {
@@ -40,23 +53,10 @@
                     ]
                 },
                 {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 324,
-                    "y": 58,
-                    "uniqueID": 749799,
-                    "ioValues": [
-                        {
-                            "name": "height",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 366,
-                    "y": 208,
+                    "x": 0.630307467057101,
+                    "y": 0.3639846743295019,
                     "uniqueID": 944261,
                     "ioValues": [
                         {
@@ -74,18 +74,10 @@
                     ]
                 },
                 {
-                    "atomType": "CutList",
-                    "name": "Add To Cutlist",
-                    "x": 494,
-                    "y": 50,
-                    "uniqueID": 873299,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 504,
-                    "y": 212,
+                    "x": 0.760614934114202,
+                    "y": 0.24904214559386972,
                     "uniqueID": 652984,
                     "ioValues": [
                         {
@@ -105,16 +97,31 @@
                 {
                     "atomType": "CutList",
                     "name": "Add To Cutlist",
-                    "x": 635,
-                    "y": 227,
+                    "x": 0.8367496339677891,
+                    "y": 0.4137931034482759,
                     "uniqueID": 289939,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "CutList",
+                    "name": "Add To Cutlist",
+                    "x": 0.6449487554904832,
+                    "y": 0.7126436781609194,
+                    "uniqueID": 873299,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
                     "ioValues": []
                 },
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 740,
-                    "y": 87,
+                    "x": 0.8806734992679356,
+                    "y": 0.7854406130268199,
                     "uniqueID": 540855,
                     "ioValues": [
                         {
@@ -127,23 +134,9 @@
                         }
                     ],
                     "removeCutawayGeometry": true
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 163.5,
-                    "ioValues": []
                 }
             ],
             "allConnectors": [
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 700928,
-                    "ap2ID": 749799
-                },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
@@ -162,15 +155,15 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": 944261,
-                    "ap2ID": 652984
+                    "ap1ID": 700928,
+                    "ap2ID": 749799
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 2",
-                    "ap2Primary": false,
-                    "ap1ID": 873299,
-                    "ap2ID": 540855
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 944261,
+                    "ap2ID": 652984
                 },
                 {
                     "ap1Name": "geometry",
@@ -184,6 +177,13 @@
                     "ap2Name": "3D shape 3",
                     "ap2Primary": false,
                     "ap1ID": 289939,
+                    "ap2ID": 540855
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 873299,
                     "ap2ID": 540855
                 },
                 {
